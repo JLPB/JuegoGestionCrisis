@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTituloCrisis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/txtTituloCrisis"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtProblema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/txtProblema"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/txtEstado"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtDerechos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/txtDerechos"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtEconomia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/txtEconomia"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtAprobacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/txtAprobacion"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtPolitica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/txtPolitica"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnOrtodoxa"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/boton_redondo"
+                android:text="@string/btnOrtodoxa"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnPanico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/boton_panico_total"
+                android:text="@string/btnPanico"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtAyudaInternacional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/txtAyudaInternacional"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnAyudaInternacional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/boton_redondo"
+            android:text="@string/btnAyudaInternacional"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

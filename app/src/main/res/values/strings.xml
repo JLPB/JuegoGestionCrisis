@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Gestion de crisis</string>
+
+    <!-- Strings pantalla principal -->
+    <string name="tituloPrincipal">Gestión de crisis</string>
+    <string name="btnJugar">Jugar</string>
+    <string name="btnPuntuaciones"> Puntuaciones</string>
+    <string name="btnInstrucciones">Instrucciones</string>
+
+    <!-- Strings pantalla datos jugador -->
+    <string name="datosJugadorTitulo">Datos del jugador</string>
+    <string name="introducirNombre">Introduce el nombre del jugador</string>
+    <string name="genero">Selecciona el género de tu personaje</string>
+    <string name="radioHombre">Masculino</string>
+    <string name="radioMujer">Femenino</string>
+    <string name="usuarioVacio">Introduce un nombre de usuario</string>
+    <string name="radioVacio">Por favor selecciona un género</string>
+    <string name="btnCrear">Crear</string>
+
+    <!-- Strings inicio jugador -->
+    <string name="introduccion">%1$s, el pueblo de freedonia te ha elegido para que gestiones la marcha del país.\nEnfréntate con valentía a las crisis que tendrá que soportar el país y consigue un hueco en la historia de la gran nación de Freedonia.</string>
+    <string name="btnGestionar">Gestionar</string>
+    <string name="btnDimitir">Retirarse</string>
+    <string name="marcador">Marcador</string>
+    <string name="crisis">Crisis gestionadas</string>
+    <string name="exito">Gestiones exitosas</string>
+    <string name="resultadoPolitica">Resultado de la última política aplicada</string>
+    <string name="txtGestion">FREEDONIA</string>
+    <string name="txtFallosConsecutivos">"Número de strikes: "</string>
+
+    <!-- Strings pantalla crisis -->
+    <string name="txtTituloCrisis">CRISIS EN CURSO</string>
+    <string name="txtProblema">La crisis a la que te enfrentas es...</string>
+    <string name="txtEstado">ESTADO DE LA NACIÓN</string>
+    <string name="txtDerechos">Nivel derechos sociales: %1$d</string>
+    <string name="txtEconomia">Nivel de la economía: %1$d</string>
+    <string name="txtAprobacion">Nivel de aprobación: %1$d</string>
+    <string name="txtPolitica">Aplicar política</string>
+    <string name="btnOrtodoxa">Ortodoxa</string>
+    <string name="btnPanico">Pánico !!!</string>
+    <string name="btnAyudaInternacional">Ayuda</string>
+    <string name="txtShock">Aplicar política de Shock</string>
+    <string name="txtAyudaInternacional">Pedir ayuda internacional</string>
+    <string name="listaPuntuaciones">Puntuaciones</string>
+
+    <!-- Strings textos crisis -->
+    <string name="crisis1">Los trabajadores exigen mejores salarios y condiciones laborales, para conseguirlo han convocado una huelga que ha paralizado a todo el país, los destrozos de las calles y en los comercios están siendo considerable. Es hora de que gestiones esta crisis y apliques una política.</string>
+    <string name="crisis2">Los pensionistas no están de acuerdo con sus pensiones y piden una subida de como mínimo el 20%. Para meter presión a nuestro equipo de gobierno han empezado a ir al médico con falsas dolencias para que les receten medicamentos de forma gratuita. De seguir a este ritmo el gasto en medicamentos supondrá un agujero en nuestros presupuestos. Es necesario que apliques una política lo más rápido posible.</string>
+    <string name="crisis3">En estos momentos estamos sufriendo un éxodo masivo de jóvenes que salen del país en busca de una vida digna. De seguir así al final no quedará nadie que pague impuestos y toda la estructura gubernamental caerá por su propio peso. Aplica una política con la mayor premura posible para frenar este éxodo.</string>
+
+    <!-- Strings pantalla ayuda internacional -->
+    <string name="txtAyudaInternacionalActivity">Aquí le puedes pedir ayuda a la comunidad internacional, esta puede decidir ayudarte, no hacer nada o castigarte, así que medita con calma si la economía está lo suficientemente mal como para requerir la ayuda.\\n\\nSelecciones o no la ayuda internacional ya no se te permitirá pedirla hasta la siguiente crisis.</string>
+    <string name="btnAceptarInternacional">Aceptar</string>
+    <string name="btnCancelarInternacional">Rechazar</string>
+    <string name="txtTituloInternacional">Ayuda internacional</string>
+
+    <!-- Strings pantalla resultado -->
+    <string name="endGame">Tu resultado ha sido: %1$s puntos</string>
+
+
+    <!-- Strings instrucciones -->
+    <string name="instruccionesLayout">Instrucciones</string>
+    <string name="instruccionesDetalle">El juego consiste en gestionar el mayor número de crisis posibles. El juego termina cuando se pulsa el botón de retirarse o cuando se fracasa en tres crisis de forma consecutiva.\n\nEn el caso de retirarse se guardarían los puntos, en el de fracasar en las tres crisis la puntuación es 0.\n\nPara gestionar las crisis existen 2 botones que representan una política ortodoxa y el otro que se define como política del pánico.\nSi se usa el botón de política ortodoxa entonces se le da un pequeño impulso al resultado, en cambio el uso de política del pánico puede traer un gran éxito, un gran fracaso o dejar las cosas como están.\n\nExiste una última opción en la que se puede pedir ayuda a un organismo internacional. Los cuales pueden dejar las cosas como estaban, mejorarlas o empeorarlas.</string>
+
+    <!-- Strings action bar -->
+    <string name="opciones">Opciones</string>
+    <string name="disclaimer">Información</string>
+    <string name="disclaimerAction">Para usar la aplicación se necesita una API superior a 21</string>
+    <string name="autor">Autor: José Luis Peñuela Berenguer</string>
+    <string name="autorAction">Autor</string>
+
+    <!-- Strings preferencias -->
+    <string name="fondoPantalla">Fondo de pantalla alternativo</string>
+    <string name="fondoPantallaExplicacion">Cambia el fondo de pantalla de la pantalla de inicio</string>
+    <string name="dificultad">Dificultad</string>
+    <string name="dificultadExplicacion">Seleccionar el nivel de dificultad</string>
+    <string name="dificultadFacil">Fácil</string>
+    <string name="dificultadNormal">Normal</string>
+    <string name="dificultadDificil">Difícil</string>
+
+    <!-- Otros -->
+    <string name="noDisponible">La opción no se encuentra disponible en estos momentos</string>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
